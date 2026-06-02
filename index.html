@@ -35,16 +35,16 @@
       theme: {
         extend: {
           colors: {
-            primary: '#4A6058',      // Sage Green / Musgo
-            primaryHover: '#7D8D87', // Verde Acinzentado Médio
-            accent1: '#97C6C2',      // Menta
-            accent2: '#C1DDDA',      // Menta Claro
-            bgLight: '#F9FAFB',      // Fundo principal Light
-            bgDark: '#080C14',       // Fundo escuro / overlay
-            bgSecondary: '#F6F7FB',  // Fundo secundário
-            textMain: '#353738',     // Texto principal
-            titleMain: '#1F2122',    // Títulos
-            lineColor: '#DCDCDE',    // Linhas
+            primary: '#3a1c48',      // Roxo Escuro Profundo
+            primaryHover: '#5a3068', // Roxo Médio (hover)
+            accent1: '#ab7e44',      // Dourado Elegante
+            accent2: '#c9a46c',      // Dourado Claro / Champagne
+            bgLight: '#faf3ee',      // Creme Suave (fundo principal)
+            bgDark: '#2a1238',       // Roxo Profundo (seções escuras)
+            bgSecondary: '#f3e4d8',  // Creme Rosado (fundo secundário)
+            textMain: '#3d2e34',     // Marrom Escuro Quente
+            titleMain: '#2e1a35',    // Roxo Título
+            lineColor: '#e0c9b5',    // Dourado/Nude Sutil
           },
           fontFamily: {
             title: ['Outfit', 'Be Vietnam Pro', 'sans-serif'],
@@ -65,7 +65,7 @@
     "@id": "https://daharayogaeconstelacaofamiliar.com.br/#organization",
     "name": "Dahara Yoga e Constelação Familiar",
     "url": "https://daharayogaeconstelacaofamiliar.com.br/",
-    "logo": "https://daharayogaeconstelacaofamiliar.com.br/assets/img/logo.webp",
+    "logo": "https://daharayogaeconstelacaofamiliar.com.br/assets/img/logo.jpg",
     "sameAs": [
       "https://instagram.com/daharayogaeconstelacaofamiliar"
     ]
@@ -82,7 +82,7 @@
     "url": "https://daharayogaeconstelacaofamiliar.com.br/",
     "telephone": "+55 19 98138-1560",
     "image": "https://daharayogaeconstelacaofamiliar.com.br/assets/img/og-image.jpg",
-    "logo": "https://daharayogaeconstelacaofamiliar.com.br/assets/img/logo.webp",
+    "logo": "https://daharayogaeconstelacaofamiliar.com.br/assets/img/logo.jpg",
     "description": "Aulas de Yoga Terapêutica e Constelação Familiar em São José do Rio Pardo e online. Encontre equilíbrio físico, mental e emocional.",
     "address": {
       "@type": "PostalAddress",
@@ -347,7 +347,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
       <!-- Logo -->
       <a href="#hero" class="flex items-center gap-3">
-        <img src="/assets/img/logo.webp" alt="Dahara Yoga e Constelação Familiar" class="h-12 w-auto object-contain" width="180" height="49">
+        <img src="/assets/img/logo.jpg" alt="Dahara Yoga e Constelação Familiar" class="h-12 w-auto object-contain" width="180" height="49">
       </a>
 
       <!-- Desktop Navigation Menu -->
@@ -528,7 +528,7 @@
           <div class="relative">
             <!-- Decorative Accent Box -->
             <div class="absolute -inset-4 bg-accent2/30 rounded-2xl -z-10 translate-x-3 translate-y-3"></div>
-            <img src="/assets/img/sobre.webp" alt="Dahara Yoga e Constelação Familiar - Prática em São José do Rio Pardo" class="w-full h-auto rounded-2xl object-cover shadow-lg" width="500" height="450" loading="lazy">
+            <img src="/assets/img/dulcineia.jpg" alt="Dulcinea Marinho - Dahara Yoga e Constelação Familiar" class="w-full h-auto rounded-2xl object-cover shadow-lg" width="500" height="450" loading="lazy">
             <!-- Stats badge -->
             <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-lineColor/50 flex items-center gap-4">
               <div class="bg-accent1/20 text-primary p-3 rounded-xl font-bold text-2xl font-title">
@@ -731,6 +731,18 @@
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
           </div>
+        </div>
+
+        <!-- Banners Promocionais da Identidade Visual -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
+          <a href="https://wa.me/5519981381560?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+as+Aulas+de+Yoga." target="_blank" rel="noopener" class="group relative overflow-hidden rounded-3xl shadow-lg border border-lineColor/50 hover:shadow-xl transition-all duration-300 block">
+            <img src="/assets/img/aulas-yoga.jpg" alt="Aulas de Yoga - Dahara" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-102" loading="lazy">
+            <div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-300"></div>
+          </a>
+          <a href="https://wa.me/5519981381560?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+Constela%C3%A7%C3%A3o+Familiar." target="_blank" rel="noopener" class="group relative overflow-hidden rounded-3xl shadow-lg border border-lineColor/50 hover:shadow-xl transition-all duration-300 block">
+            <img src="/assets/img/constelacao-familiar.jpg" alt="Constelação Familiar - Dahara" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-102" loading="lazy">
+            <div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-300"></div>
+          </a>
         </div>
 
         <div class="text-center mt-16 max-w-2xl mx-auto border-t border-lineColor pt-8">
@@ -1178,7 +1190,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
       <!-- Coluna 1: Logo & Redes -->
       <div class="flex flex-col gap-6">
-        <img src="/assets/img/logo.webp" alt="Dahara Yoga e Constelação Familiar" class="h-10 w-auto self-start object-contain" width="150" height="40" loading="lazy">
+        <img src="/assets/img/logo.jpg" alt="Dahara Yoga e Constelação Familiar" class="h-10 w-auto self-start object-contain" width="150" height="40" loading="lazy">
         <p class="text-sm text-textMain leading-relaxed">
           Oferecemos um espaço seguro de saúde integrativa e autoconhecimento em São José do Rio Pardo, unindo Yoga Terapêutica e Constelação Familiar.
         </p>

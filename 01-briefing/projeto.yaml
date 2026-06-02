@@ -1,0 +1,84 @@
+empresa:
+  nome: "Dahara Yoga e Constelação Familiar"
+  segmento: "Bem-estar, Saúde Integrativa, Yoga Terapêutica e Constelação Familiar"
+  cidade: "São José do Rio Pardo"
+  estado: "SP"
+  pais: "BR"
+  telefone: "5519981381560"
+  whatsapp: "5519981381560"
+  endereco: "R. Roque Giovanelli, 275 - José Maldonado Peres, São José do Rio Pardo - SP, CEP 13727-272"
+  horario: "Atendimentos mediante agendamento prévio para aulas e sessões"
+  bairros_atendidos: "São José do Rio Pardo, região e atendimento online para todo o Brasil"
+  google_maps_iframe: ""
+
+logo_path: "/assets/img/logo.png"
+
+redes_sociais:
+  instagram: "daharayogaeconstelacaofamiliar"
+  facebook: ""
+
+branding:
+  tom: "Acolhedor, leve, humanizado e profissional, transmitindo confiança, bem-estar e conexão emocional"
+  paleta:
+    primaria: ""
+    secundaria: ""
+    fundo: "#F9FAFB"
+    texto: "#111827"
+
+seo:
+  palavra_chave_principal: "Yoga Terapêutica em São José do Rio Pardo"
+  palavras_secundarias:
+    - "Yoga para Mulheres"
+    - "Yoga em Grupo"
+    - "Constelação Familiar"
+    - "Constelação Familiar Online"
+    - "Bem-estar e Autoconhecimento"
+    - "Saúde Integrativa"
+    - "Yoga em São José do Rio Pardo"
+    - "Desenvolvimento Pessoal"
+  area_atuacao: "São José do Rio Pardo - SP e atendimento online para todo o Brasil"
+
+servicos:
+  - nome: "Aulas de Yoga"
+    descricao: "Práticas voltadas ao equilíbrio físico, mental e emocional, adaptadas para diferentes níveis de experiência."
+    slug: "aulas-de-yoga"
+
+  - nome: "Yoga Terapêutica com Acessórios"
+    descricao: "Método que utiliza acessórios terapêuticos para promover bem-estar, alinhamento corporal e qualidade de vida."
+    slug: "yoga-terapeutica"
+
+  - nome: "Yoga para Mulheres"
+    descricao: "Práticas direcionadas às necessidades físicas e emocionais da mulher em diferentes fases da vida."
+    slug: "yoga-para-mulheres"
+
+  - nome: "Yoga em Grupo"
+    descricao: "Aulas coletivas que promovem conexão, saúde integral e desenvolvimento pessoal."
+    slug: "yoga-em-grupo"
+
+  - nome: "Constelação Familiar em Grupo"
+    descricao: "Vivências que auxiliam na compreensão de padrões familiares e no desenvolvimento emocional."
+    slug: "constelacao-familiar-em-grupo"
+
+  - nome: "Constelação Familiar Online"
+    descricao: "Atendimento online para quem busca autoconhecimento, clareza e equilíbrio emocional de qualquer lugar do Brasil."
+    slug: "constelacao-familiar-online"
+
+diferenciais:
+  - "Atendimento acolhedor e humanizado"
+  - "Práticas adaptadas para todos os níveis, inclusive iniciantes"
+  - "Uso de acessórios terapêuticos no yoga"
+  - "Integração entre corpo, mente e emoções"
+  - "Espaço seguro para autoconhecimento e desenvolvimento pessoal"
+  - "Atendimento presencial e online"
+  - "Foco no equilíbrio emocional e qualidade de vida"
+
+prova_social:
+  - "Depoimentos positivos de alunos e clientes"
+  - "Experiências reais de transformação pessoal"
+  - "Atendimento reconhecido pelo acolhimento e profissionalismo"
+
+cta_principal: "Falar no WhatsApp"
+
+dominio: ""
+
+tipo_site: "one-page"
